@@ -1,0 +1,191 @@
+[0.000000] (-) TimerEvent: {}
+[0.000367] (GPS) JobQueued: {'identifier': 'GPS', 'dependencies': OrderedDict()}
+[0.000525] (Navigation) JobQueued: {'identifier': 'Navigation', 'dependencies': OrderedDict()}
+[0.000628] (interfaces) JobQueued: {'identifier': 'interfaces', 'dependencies': OrderedDict()}
+[0.000727] (testing) JobQueued: {'identifier': 'testing', 'dependencies': OrderedDict()}
+[0.002547] (GPS) JobStarted: {'identifier': 'GPS'}
+[0.043777] (Navigation) JobStarted: {'identifier': 'Navigation'}
+[0.078835] (interfaces) JobStarted: {'identifier': 'interfaces'}
+[0.099446] (-) TimerEvent: {}
+[0.123900] (testing) JobStarted: {'identifier': 'testing'}
+[0.199980] (-) TimerEvent: {}
+[0.300801] (-) TimerEvent: {}
+[0.401554] (-) TimerEvent: {}
+[0.502187] (-) TimerEvent: {}
+[0.602887] (-) TimerEvent: {}
+[0.703533] (-) TimerEvent: {}
+[0.804109] (-) TimerEvent: {}
+[0.904711] (-) TimerEvent: {}
+[1.005460] (-) TimerEvent: {}
+[1.106186] (-) TimerEvent: {}
+[1.207088] (-) TimerEvent: {}
+[1.308074] (-) TimerEvent: {}
+[1.408954] (-) TimerEvent: {}
+[1.509841] (-) TimerEvent: {}
+[1.610756] (-) TimerEvent: {}
+[1.711618] (-) TimerEvent: {}
+[1.812521] (-) TimerEvent: {}
+[1.913404] (-) TimerEvent: {}
+[2.014125] (-) TimerEvent: {}
+[2.114802] (-) TimerEvent: {}
+[2.215498] (-) TimerEvent: {}
+[2.316250] (-) TimerEvent: {}
+[2.417164] (-) TimerEvent: {}
+[2.518119] (-) TimerEvent: {}
+[2.618943] (-) TimerEvent: {}
+[2.719737] (-) TimerEvent: {}
+[2.820431] (-) TimerEvent: {}
+[2.920851] (-) TimerEvent: {}
+[3.021849] (-) TimerEvent: {}
+[3.123970] (-) TimerEvent: {}
+[3.224616] (-) TimerEvent: {}
+[3.325005] (-) TimerEvent: {}
+[3.425487] (-) TimerEvent: {}
+[3.525885] (-) TimerEvent: {}
+[3.626329] (-) TimerEvent: {}
+[3.726959] (-) TimerEvent: {}
+[3.827528] (-) TimerEvent: {}
+[3.854865] (GPS) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/GPS', 'build', '--build-base', '/home/leroy7/ros_ws/build/GPS/build', 'install', '--record', '/home/leroy7/ros_ws/build/GPS/install.log', '--single-version-externally-managed'], 'cwd': '/home/leroy7/ros_ws/src/GPS', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'leroy7', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/leroy7', 'OLDPWD': '/home/leroy7/ros_ws/src', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'WSL_DISTRO_NAME': 'Ubuntu-22.04', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/leroy7/ros_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'leroy7', 'NAME': 'LAPTOP-DUG316QR', 'WSL_INTEROP': '/run/WSL/379_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/:/mnt/c/Program Files (x86)/Microsoft SQL Server/150/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/150/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/150/DTS/Binn/:/mnt/c/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/:/mnt/c/Program Files/dotnet/:/mnt/c/Users/musal/AppData/Local/Programs/Eclipse Adoptium/jdk-17.0.10.7-hotspot/bin:/mnt/c/Users/musal/AppData/Local/Programs/Python/Python312/Scripts/:/mnt/c/Users/musal/AppData/Local/Programs/Python/Python312/:/mnt/c/Users/musal/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/musal/AppData/Local/GitHubDesktop/bin:/mnt/c/Users/musal/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Program Files/JetBrains/IntelliJ IDEA Community Edition 2023.1.1/bin:/mnt/c/Users/musal/.dotnet/tools:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000/', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PWD': '/home/leroy7/ros_ws/build/GPS', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/leroy7/ros_ws/build/GPS/prefix_override:/home/leroy7/ros_ws/install/GPS/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'WSLENV': ''}, 'shell': False}
+[3.871234] (Navigation) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/Navigation', 'build', '--build-base', '/home/leroy7/ros_ws/build/Navigation/build', 'install', '--record', '/home/leroy7/ros_ws/build/Navigation/install.log', '--single-version-externally-managed'], 'cwd': '/home/leroy7/ros_ws/src/Navigation', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'leroy7', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/leroy7', 'OLDPWD': '/home/leroy7/ros_ws/src', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'WSL_DISTRO_NAME': 'Ubuntu-22.04', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/leroy7/ros_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'leroy7', 'NAME': 'LAPTOP-DUG316QR', 'WSL_INTEROP': '/run/WSL/379_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/:/mnt/c/Program Files (x86)/Microsoft SQL Server/150/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/150/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/150/DTS/Binn/:/mnt/c/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/:/mnt/c/Program Files/dotnet/:/mnt/c/Users/musal/AppData/Local/Programs/Eclipse Adoptium/jdk-17.0.10.7-hotspot/bin:/mnt/c/Users/musal/AppData/Local/Programs/Python/Python312/Scripts/:/mnt/c/Users/musal/AppData/Local/Programs/Python/Python312/:/mnt/c/Users/musal/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/musal/AppData/Local/GitHubDesktop/bin:/mnt/c/Users/musal/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Program Files/JetBrains/IntelliJ IDEA Community Edition 2023.1.1/bin:/mnt/c/Users/musal/.dotnet/tools:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000/', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PWD': '/home/leroy7/ros_ws/build/Navigation', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/leroy7/ros_ws/build/Navigation/prefix_override:/home/leroy7/ros_ws/install/Navigation/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'WSLENV': ''}, 'shell': False}
+[3.896213] (testing) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/testing', 'build', '--build-base', '/home/leroy7/ros_ws/build/testing/build', 'install', '--record', '/home/leroy7/ros_ws/build/testing/install.log', '--single-version-externally-managed'], 'cwd': '/home/leroy7/ros_ws/src/testing', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'leroy7', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/leroy7', 'OLDPWD': '/home/leroy7/ros_ws/src', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'WSL_DISTRO_NAME': 'Ubuntu-22.04', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/leroy7/ros_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'leroy7', 'NAME': 'LAPTOP-DUG316QR', 'WSL_INTEROP': '/run/WSL/379_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/:/mnt/c/Program Files (x86)/Microsoft SQL Server/150/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/150/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/150/DTS/Binn/:/mnt/c/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/:/mnt/c/Program Files/dotnet/:/mnt/c/Users/musal/AppData/Local/Programs/Eclipse Adoptium/jdk-17.0.10.7-hotspot/bin:/mnt/c/Users/musal/AppData/Local/Programs/Python/Python312/Scripts/:/mnt/c/Users/musal/AppData/Local/Programs/Python/Python312/:/mnt/c/Users/musal/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/musal/AppData/Local/GitHubDesktop/bin:/mnt/c/Users/musal/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Program Files/JetBrains/IntelliJ IDEA Community Edition 2023.1.1/bin:/mnt/c/Users/musal/.dotnet/tools:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000/', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PWD': '/home/leroy7/ros_ws/build/testing', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/leroy7/ros_ws/build/testing/prefix_override:/home/leroy7/ros_ws/install/testing/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'WSLENV': ''}, 'shell': False}
+[3.904737] (interfaces) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/interfaces', 'build', '--build-base', '/home/leroy7/ros_ws/build/interfaces/build', 'install', '--record', '/home/leroy7/ros_ws/build/interfaces/install.log', '--single-version-externally-managed'], 'cwd': '/home/leroy7/ros_ws/src/interfaces', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'leroy7', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/leroy7', 'OLDPWD': '/home/leroy7/ros_ws/src', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'WSL_DISTRO_NAME': 'Ubuntu-22.04', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/leroy7/ros_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'leroy7', 'NAME': 'LAPTOP-DUG316QR', 'WSL_INTEROP': '/run/WSL/379_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/:/mnt/c/Program Files (x86)/Microsoft SQL Server/150/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/150/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/150/DTS/Binn/:/mnt/c/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/:/mnt/c/Program Files/dotnet/:/mnt/c/Users/musal/AppData/Local/Programs/Eclipse Adoptium/jdk-17.0.10.7-hotspot/bin:/mnt/c/Users/musal/AppData/Local/Programs/Python/Python312/Scripts/:/mnt/c/Users/musal/AppData/Local/Programs/Python/Python312/:/mnt/c/Users/musal/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/musal/AppData/Local/GitHubDesktop/bin:/mnt/c/Users/musal/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Program Files/JetBrains/IntelliJ IDEA Community Edition 2023.1.1/bin:/mnt/c/Users/musal/.dotnet/tools:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000/', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PWD': '/home/leroy7/ros_ws/build/interfaces', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/leroy7/ros_ws/build/interfaces/prefix_override:/home/leroy7/ros_ws/install/interfaces/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'WSLENV': ''}, 'shell': False}
+[3.927666] (-) TimerEvent: {}
+[4.028055] (-) TimerEvent: {}
+[4.128511] (-) TimerEvent: {}
+[4.228954] (-) TimerEvent: {}
+[4.280922] (GPS) StdoutLine: {'line': b'running egg_info\n'}
+[4.281776] (GPS) StdoutLine: {'line': b'creating ../../build/GPS/GPS.egg-info\n'}
+[4.282402] (GPS) StdoutLine: {'line': b'writing ../../build/GPS/GPS.egg-info/PKG-INFO\n'}
+[4.282752] (GPS) StdoutLine: {'line': b'writing dependency_links to ../../build/GPS/GPS.egg-info/dependency_links.txt\n'}
+[4.289908] (GPS) StdoutLine: {'line': b'writing entry points to ../../build/GPS/GPS.egg-info/entry_points.txt\n'}
+[4.290349] (GPS) StdoutLine: {'line': b'writing requirements to ../../build/GPS/GPS.egg-info/requires.txt\n'}
+[4.290809] (GPS) StdoutLine: {'line': b'writing top-level names to ../../build/GPS/GPS.egg-info/top_level.txt\n'}
+[4.290978] (GPS) StdoutLine: {'line': b"writing manifest file '../../build/GPS/GPS.egg-info/SOURCES.txt'\n"}
+[4.293955] (GPS) StdoutLine: {'line': b"reading manifest file '../../build/GPS/GPS.egg-info/SOURCES.txt'\n"}
+[4.294679] (GPS) StdoutLine: {'line': b"writing manifest file '../../build/GPS/GPS.egg-info/SOURCES.txt'\n"}
+[4.295127] (GPS) StdoutLine: {'line': b'running build\n'}
+[4.295241] (GPS) StdoutLine: {'line': b'running build_py\n'}
+[4.295321] (GPS) StdoutLine: {'line': b'creating /home/leroy7/ros_ws/build/GPS/build\n'}
+[4.295712] (GPS) StdoutLine: {'line': b'creating /home/leroy7/ros_ws/build/GPS/build/lib\n'}
+[4.295819] (GPS) StdoutLine: {'line': b'creating /home/leroy7/ros_ws/build/GPS/build/lib/GPS\n'}
+[4.295998] (GPS) StdoutLine: {'line': b'copying GPS/__init__.py -> /home/leroy7/ros_ws/build/GPS/build/lib/GPS\n'}
+[4.296267] (GPS) StdoutLine: {'line': b'running install\n'}
+[4.296784] (GPS) StdoutLine: {'line': b'running install_lib\n'}
+[4.297877] (GPS) StdoutLine: {'line': b'creating /home/leroy7/ros_ws/install/GPS/lib/python3.10/site-packages/GPS\n'}
+[4.298206] (GPS) StdoutLine: {'line': b'copying /home/leroy7/ros_ws/build/GPS/build/lib/GPS/__init__.py -> /home/leroy7/ros_ws/install/GPS/lib/python3.10/site-packages/GPS\n'}
+[4.300868] (Navigation) StdoutLine: {'line': b'running egg_info\n'}
+[4.301181] (GPS) StdoutLine: {'line': b'byte-compiling /home/leroy7/ros_ws/install/GPS/lib/python3.10/site-packages/GPS/__init__.py to __init__.cpython-310.pyc\n'}
+[4.301593] (Navigation) StdoutLine: {'line': b'creating ../../build/Navigation/Navigation.egg-info\n'}
+[4.301779] (GPS) StdoutLine: {'line': b'running install_data\n'}
+[4.302369] (Navigation) StdoutLine: {'line': b'writing ../../build/Navigation/Navigation.egg-info/PKG-INFO\n'}
+[4.303508] (Navigation) StdoutLine: {'line': b'writing dependency_links to ../../build/Navigation/Navigation.egg-info/dependency_links.txt\n'}
+[4.303923] (Navigation) StdoutLine: {'line': b'writing entry points to ../../build/Navigation/Navigation.egg-info/entry_points.txt\n'}
+[4.304544] (GPS) StdoutLine: {'line': b'creating /home/leroy7/ros_ws/install/GPS/share/ament_index\n'}
+[4.305044] (GPS) StdoutLine: {'line': b'creating /home/leroy7/ros_ws/install/GPS/share/ament_index/resource_index\n'}
+[4.305579] (interfaces) StdoutLine: {'line': b'running egg_info\n'}
+[4.305770] (Navigation) StdoutLine: {'line': b'writing requirements to ../../build/Navigation/Navigation.egg-info/requires.txt\n'}
+[4.305917] (Navigation) StdoutLine: {'line': b'writing top-level names to ../../build/Navigation/Navigation.egg-info/top_level.txt\n'}
+[4.306157] (Navigation) StdoutLine: {'line': b"writing manifest file '../../build/Navigation/Navigation.egg-info/SOURCES.txt'\n"}
+[4.306392] (GPS) StdoutLine: {'line': b'creating /home/leroy7/ros_ws/install/GPS/share/ament_index/resource_index/packages\n'}
+[4.306615] (GPS) StdoutLine: {'line': b'copying resource/GPS -> /home/leroy7/ros_ws/install/GPS/share/ament_index/resource_index/packages\n'}
+[4.306832] (interfaces) StdoutLine: {'line': b'creating ../../build/interfaces/interfaces.egg-info\n'}
+[4.307315] (GPS) StdoutLine: {'line': b'copying package.xml -> /home/leroy7/ros_ws/install/GPS/share/GPS\n'}
+[4.307849] (interfaces) StdoutLine: {'line': b'writing ../../build/interfaces/interfaces.egg-info/PKG-INFO\n'}
+[4.308079] (interfaces) StdoutLine: {'line': b'writing dependency_links to ../../build/interfaces/interfaces.egg-info/dependency_links.txt\n'}
+[4.308239] (GPS) StdoutLine: {'line': b'running install_egg_info\n'}
+[4.308371] (Navigation) StdoutLine: {'line': b"reading manifest file '../../build/Navigation/Navigation.egg-info/SOURCES.txt'\n"}
+[4.308692] (interfaces) StdoutLine: {'line': b'writing entry points to ../../build/interfaces/interfaces.egg-info/entry_points.txt\n'}
+[4.309002] (interfaces) StdoutLine: {'line': b'writing requirements to ../../build/interfaces/interfaces.egg-info/requires.txt\n'}
+[4.309660] (interfaces) StdoutLine: {'line': b'writing top-level names to ../../build/interfaces/interfaces.egg-info/top_level.txt\n'}
+[4.309840] (interfaces) StdoutLine: {'line': b"writing manifest file '../../build/interfaces/interfaces.egg-info/SOURCES.txt'\n"}
+[4.310023] (Navigation) StdoutLine: {'line': b"writing manifest file '../../build/Navigation/Navigation.egg-info/SOURCES.txt'\n"}
+[4.310334] (Navigation) StdoutLine: {'line': b'running build\n'}
+[4.310605] (Navigation) StdoutLine: {'line': b'running build_py\n'}
+[4.310962] (Navigation) StdoutLine: {'line': b'creating /home/leroy7/ros_ws/build/Navigation/build\n'}
+[4.311427] (Navigation) StdoutLine: {'line': b'creating /home/leroy7/ros_ws/build/Navigation/build/lib\n'}
+[4.311730] (GPS) StdoutLine: {'line': b'Copying ../../build/GPS/GPS.egg-info to /home/leroy7/ros_ws/install/GPS/lib/python3.10/site-packages/GPS-0.0.0-py3.10.egg-info\n'}
+[4.312502] (Navigation) StdoutLine: {'line': b'creating /home/leroy7/ros_ws/build/Navigation/build/lib/Navigation\n'}
+[4.312733] (interfaces) StdoutLine: {'line': b"reading manifest file '../../build/interfaces/interfaces.egg-info/SOURCES.txt'\n"}
+[4.312889] (Navigation) StdoutLine: {'line': b'copying Navigation/__init__.py -> /home/leroy7/ros_ws/build/Navigation/build/lib/Navigation\n'}
+[4.313163] (Navigation) StdoutLine: {'line': b'running install\n'}
+[4.313466] (Navigation) StdoutLine: {'line': b'running install_lib\n'}
+[4.314162] (interfaces) StdoutLine: {'line': b"writing manifest file '../../build/interfaces/interfaces.egg-info/SOURCES.txt'\n"}
+[4.314285] (interfaces) StdoutLine: {'line': b'running build\n'}
+[4.314382] (interfaces) StdoutLine: {'line': b'running build_py\n'}
+[4.314459] (interfaces) StdoutLine: {'line': b'creating /home/leroy7/ros_ws/build/interfaces/build\n'}
+[4.314534] (GPS) StdoutLine: {'line': b'running install_scripts\n'}
+[4.314612] (Navigation) StdoutLine: {'line': b'creating /home/leroy7/ros_ws/install/Navigation/lib/python3.10/site-packages/Navigation\n'}
+[4.314913] (interfaces) StdoutLine: {'line': b'creating /home/leroy7/ros_ws/build/interfaces/build/lib\n'}
+[4.315223] (Navigation) StdoutLine: {'line': b'copying /home/leroy7/ros_ws/build/Navigation/build/lib/Navigation/__init__.py -> /home/leroy7/ros_ws/install/Navigation/lib/python3.10/site-packages/Navigation\n'}
+[4.315367] (interfaces) StdoutLine: {'line': b'creating /home/leroy7/ros_ws/build/interfaces/build/lib/interfaces\n'}
+[4.315883] (interfaces) StdoutLine: {'line': b'copying interfaces/__init__.py -> /home/leroy7/ros_ws/build/interfaces/build/lib/interfaces\n'}
+[4.316003] (Navigation) StdoutLine: {'line': b'byte-compiling /home/leroy7/ros_ws/install/Navigation/lib/python3.10/site-packages/Navigation/__init__.py to __init__.cpython-310.pyc\n'}
+[4.316566] (interfaces) StdoutLine: {'line': b'running install\n'}
+[4.317222] (Navigation) StdoutLine: {'line': b'running install_data\n'}
+[4.317444] (interfaces) StdoutLine: {'line': b'running install_lib\n'}
+[4.318162] (Navigation) StdoutLine: {'line': b'creating /home/leroy7/ros_ws/install/Navigation/share/ament_index\n'}
+[4.318562] (interfaces) StdoutLine: {'line': b'creating /home/leroy7/ros_ws/install/interfaces/lib/python3.10/site-packages/interfaces\n'}
+[4.318822] (Navigation) StdoutLine: {'line': b'creating /home/leroy7/ros_ws/install/Navigation/share/ament_index/resource_index\n'}
+[4.319100] (Navigation) StdoutLine: {'line': b'creating /home/leroy7/ros_ws/install/Navigation/share/ament_index/resource_index/packages\n'}
+[4.319520] (interfaces) StdoutLine: {'line': b'copying /home/leroy7/ros_ws/build/interfaces/build/lib/interfaces/__init__.py -> /home/leroy7/ros_ws/install/interfaces/lib/python3.10/site-packages/interfaces\n'}
+[4.320022] (Navigation) StdoutLine: {'line': b'copying resource/Navigation -> /home/leroy7/ros_ws/install/Navigation/share/ament_index/resource_index/packages\n'}
+[4.320189] (Navigation) StdoutLine: {'line': b'copying package.xml -> /home/leroy7/ros_ws/install/Navigation/share/Navigation\n'}
+[4.320338] (interfaces) StdoutLine: {'line': b'byte-compiling /home/leroy7/ros_ws/install/interfaces/lib/python3.10/site-packages/interfaces/__init__.py to __init__.cpython-310.pyc\n'}
+[4.320528] (Navigation) StdoutLine: {'line': b'running install_egg_info\n'}
+[4.320979] (interfaces) StdoutLine: {'line': b'running install_data\n'}
+[4.321328] (interfaces) StdoutLine: {'line': b'creating /home/leroy7/ros_ws/install/interfaces/share/ament_index\n'}
+[4.321684] (interfaces) StdoutLine: {'line': b'creating /home/leroy7/ros_ws/install/interfaces/share/ament_index/resource_index\n'}
+[4.321945] (interfaces) StdoutLine: {'line': b'creating /home/leroy7/ros_ws/install/interfaces/share/ament_index/resource_index/packages\n'}
+[4.322303] (interfaces) StdoutLine: {'line': b'copying resource/interfaces -> /home/leroy7/ros_ws/install/interfaces/share/ament_index/resource_index/packages\n'}
+[4.322700] (interfaces) StdoutLine: {'line': b'copying package.xml -> /home/leroy7/ros_ws/install/interfaces/share/interfaces\n'}
+[4.322957] (interfaces) StdoutLine: {'line': b'running install_egg_info\n'}
+[4.323344] (Navigation) StdoutLine: {'line': b'Copying ../../build/Navigation/Navigation.egg-info to /home/leroy7/ros_ws/install/Navigation/lib/python3.10/site-packages/Navigation-0.0.0-py3.10.egg-info\n'}
+[4.324544] (Navigation) StdoutLine: {'line': b'running install_scripts\n'}
+[4.325030] (interfaces) StdoutLine: {'line': b'Copying ../../build/interfaces/interfaces.egg-info to /home/leroy7/ros_ws/install/interfaces/lib/python3.10/site-packages/interfaces-0.0.0-py3.10.egg-info\n'}
+[4.326415] (interfaces) StdoutLine: {'line': b'running install_scripts\n'}
+[4.326782] (testing) StdoutLine: {'line': b'running egg_info\n'}
+[4.327529] (testing) StdoutLine: {'line': b'creating ../../build/testing/testing.egg-info\n'}
+[4.327919] (testing) StdoutLine: {'line': b'writing ../../build/testing/testing.egg-info/PKG-INFO\n'}
+[4.328181] (testing) StdoutLine: {'line': b'writing dependency_links to ../../build/testing/testing.egg-info/dependency_links.txt\n'}
+[4.328780] (testing) StdoutLine: {'line': b'writing entry points to ../../build/testing/testing.egg-info/entry_points.txt\n'}
+[4.329079] (-) TimerEvent: {}
+[4.329511] (testing) StdoutLine: {'line': b'writing requirements to ../../build/testing/testing.egg-info/requires.txt\n'}
+[4.329864] (testing) StdoutLine: {'line': b'writing top-level names to ../../build/testing/testing.egg-info/top_level.txt\n'}
+[4.330257] (testing) StdoutLine: {'line': b"writing manifest file '../../build/testing/testing.egg-info/SOURCES.txt'\n"}
+[4.334576] (testing) StdoutLine: {'line': b"reading manifest file '../../build/testing/testing.egg-info/SOURCES.txt'\n"}
+[4.335698] (testing) StdoutLine: {'line': b"writing manifest file '../../build/testing/testing.egg-info/SOURCES.txt'\n"}
+[4.336038] (testing) StdoutLine: {'line': b'running build\n'}
+[4.336402] (testing) StdoutLine: {'line': b'running build_py\n'}
+[4.336827] (testing) StdoutLine: {'line': b'creating /home/leroy7/ros_ws/build/testing/build\n'}
+[4.337204] (testing) StdoutLine: {'line': b'creating /home/leroy7/ros_ws/build/testing/build/lib\n'}
+[4.337625] (testing) StdoutLine: {'line': b'creating /home/leroy7/ros_ws/build/testing/build/lib/testing\n'}
+[4.338009] (testing) StdoutLine: {'line': b'copying testing/__init__.py -> /home/leroy7/ros_ws/build/testing/build/lib/testing\n'}
+[4.338690] (testing) StdoutLine: {'line': b'running install\n'}
+[4.339109] (testing) StdoutLine: {'line': b'running install_lib\n'}
+[4.339900] (testing) StdoutLine: {'line': b'creating /home/leroy7/ros_ws/install/testing/lib/python3.10/site-packages/testing\n'}
+[4.340324] (testing) StdoutLine: {'line': b'copying /home/leroy7/ros_ws/build/testing/build/lib/testing/__init__.py -> /home/leroy7/ros_ws/install/testing/lib/python3.10/site-packages/testing\n'}
+[4.340976] (testing) StdoutLine: {'line': b'byte-compiling /home/leroy7/ros_ws/install/testing/lib/python3.10/site-packages/testing/__init__.py to __init__.cpython-310.pyc\n'}
+[4.341544] (testing) StdoutLine: {'line': b'running install_data\n'}
+[4.342273] (testing) StdoutLine: {'line': b'creating /home/leroy7/ros_ws/install/testing/share/ament_index\n'}
+[4.342653] (testing) StdoutLine: {'line': b'creating /home/leroy7/ros_ws/install/testing/share/ament_index/resource_index\n'}
+[4.343017] (testing) StdoutLine: {'line': b'creating /home/leroy7/ros_ws/install/testing/share/ament_index/resource_index/packages\n'}
+[4.343442] (testing) StdoutLine: {'line': b'copying resource/testing -> /home/leroy7/ros_ws/install/testing/share/ament_index/resource_index/packages\n'}
+[4.343742] (testing) StdoutLine: {'line': b'copying package.xml -> /home/leroy7/ros_ws/install/testing/share/testing\n'}
+[4.343829] (testing) StdoutLine: {'line': b'running install_egg_info\n'}
+[4.344713] (GPS) StdoutLine: {'line': b"writing list of installed files to '/home/leroy7/ros_ws/build/GPS/install.log'\n"}
+[4.346624] (testing) StdoutLine: {'line': b'Copying ../../build/testing/testing.egg-info to /home/leroy7/ros_ws/install/testing/lib/python3.10/site-packages/testing-0.0.0-py3.10.egg-info\n'}
+[4.349225] (testing) StdoutLine: {'line': b'running install_scripts\n'}
+[4.357986] (interfaces) StdoutLine: {'line': b"writing list of installed files to '/home/leroy7/ros_ws/build/interfaces/install.log'\n"}
+[4.363282] (Navigation) StdoutLine: {'line': b'Installing GPS script to /home/leroy7/ros_ws/install/Navigation/lib/Navigation\n'}
+[4.365084] (Navigation) StdoutLine: {'line': b"writing list of installed files to '/home/leroy7/ros_ws/build/Navigation/install.log'\n"}
+[4.381289] (testing) StdoutLine: {'line': b"writing list of installed files to '/home/leroy7/ros_ws/build/testing/install.log'\n"}
+[4.420992] (GPS) CommandEnded: {'returncode': 0}
+[4.429282] (-) TimerEvent: {}
+[4.452174] (GPS) JobEnded: {'identifier': 'GPS', 'rc': 0}
+[4.458855] (interfaces) CommandEnded: {'returncode': 0}
+[4.476119] (interfaces) JobEnded: {'identifier': 'interfaces', 'rc': 0}
+[4.476990] (Navigation) CommandEnded: {'returncode': 0}
+[4.501306] (Navigation) JobEnded: {'identifier': 'Navigation', 'rc': 0}
+[4.505334] (testing) CommandEnded: {'returncode': 0}
+[4.524396] (testing) JobEnded: {'identifier': 'testing', 'rc': 0}
+[4.526471] (-) EventReactorShutdown: {}

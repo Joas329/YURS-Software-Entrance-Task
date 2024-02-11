@@ -1,0 +1,31 @@
+running egg_info
+creating ../../build/GPS/GPS.egg-info
+writing ../../build/GPS/GPS.egg-info/PKG-INFO
+writing dependency_links to ../../build/GPS/GPS.egg-info/dependency_links.txt
+writing entry points to ../../build/GPS/GPS.egg-info/entry_points.txt
+writing requirements to ../../build/GPS/GPS.egg-info/requires.txt
+writing top-level names to ../../build/GPS/GPS.egg-info/top_level.txt
+writing manifest file '../../build/GPS/GPS.egg-info/SOURCES.txt'
+reading manifest file '../../build/GPS/GPS.egg-info/SOURCES.txt'
+writing manifest file '../../build/GPS/GPS.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/leroy7/ros_ws/build/GPS/build
+creating /home/leroy7/ros_ws/build/GPS/build/lib
+creating /home/leroy7/ros_ws/build/GPS/build/lib/GPS
+copying GPS/__init__.py -> /home/leroy7/ros_ws/build/GPS/build/lib/GPS
+running install
+running install_lib
+creating /home/leroy7/ros_ws/install/GPS/lib/python3.10/site-packages/GPS
+copying /home/leroy7/ros_ws/build/GPS/build/lib/GPS/__init__.py -> /home/leroy7/ros_ws/install/GPS/lib/python3.10/site-packages/GPS
+byte-compiling /home/leroy7/ros_ws/install/GPS/lib/python3.10/site-packages/GPS/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/leroy7/ros_ws/install/GPS/share/ament_index
+creating /home/leroy7/ros_ws/install/GPS/share/ament_index/resource_index
+creating /home/leroy7/ros_ws/install/GPS/share/ament_index/resource_index/packages
+copying resource/GPS -> /home/leroy7/ros_ws/install/GPS/share/ament_index/resource_index/packages
+copying package.xml -> /home/leroy7/ros_ws/install/GPS/share/GPS
+running install_egg_info
+Copying ../../build/GPS/GPS.egg-info to /home/leroy7/ros_ws/install/GPS/lib/python3.10/site-packages/GPS-0.0.0-py3.10.egg-info
+running install_scripts
+writing list of installed files to '/home/leroy7/ros_ws/build/GPS/install.log'

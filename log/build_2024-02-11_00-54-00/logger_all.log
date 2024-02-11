@@ -1,0 +1,279 @@
+[0.417s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.417s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f2fdda49f30>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f2fdda499c0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f2fdda499c0>>)
+[0.436s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.436s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.436s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.436s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.436s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.437s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.437s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/leroy7/ros_ws'
+[0.437s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.437s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.437s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.437s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.437s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.437s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.437s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.437s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.437s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.446s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.446s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.446s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.446s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.446s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.446s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.446s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.446s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.446s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.446s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.446s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.446s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.446s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.446s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.446s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.446s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.447s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.447s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.447s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.447s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.447s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.447s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.447s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.447s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.447s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.447s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.447s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.447s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.447s] Level 1:colcon.colcon_core.package_identification:_identify(src/GPS) by extensions ['ignore', 'ignore_ament_install']
+[0.447s] Level 1:colcon.colcon_core.package_identification:_identify(src/GPS) by extension 'ignore'
+[0.447s] Level 1:colcon.colcon_core.package_identification:_identify(src/GPS) by extension 'ignore_ament_install'
+[0.447s] Level 1:colcon.colcon_core.package_identification:_identify(src/GPS) by extensions ['colcon_pkg']
+[0.447s] Level 1:colcon.colcon_core.package_identification:_identify(src/GPS) by extension 'colcon_pkg'
+[0.447s] Level 1:colcon.colcon_core.package_identification:_identify(src/GPS) by extensions ['colcon_meta']
+[0.447s] Level 1:colcon.colcon_core.package_identification:_identify(src/GPS) by extension 'colcon_meta'
+[0.447s] Level 1:colcon.colcon_core.package_identification:_identify(src/GPS) by extensions ['ros']
+[0.447s] Level 1:colcon.colcon_core.package_identification:_identify(src/GPS) by extension 'ros'
+[0.449s] DEBUG:colcon.colcon_core.package_identification:Package 'src/GPS' with type 'ros.ament_python' and name 'GPS'
+[0.449s] Level 1:colcon.colcon_core.package_identification:_identify(src/Navigation) by extensions ['ignore', 'ignore_ament_install']
+[0.449s] Level 1:colcon.colcon_core.package_identification:_identify(src/Navigation) by extension 'ignore'
+[0.450s] Level 1:colcon.colcon_core.package_identification:_identify(src/Navigation) by extension 'ignore_ament_install'
+[0.450s] Level 1:colcon.colcon_core.package_identification:_identify(src/Navigation) by extensions ['colcon_pkg']
+[0.450s] Level 1:colcon.colcon_core.package_identification:_identify(src/Navigation) by extension 'colcon_pkg'
+[0.450s] Level 1:colcon.colcon_core.package_identification:_identify(src/Navigation) by extensions ['colcon_meta']
+[0.450s] Level 1:colcon.colcon_core.package_identification:_identify(src/Navigation) by extension 'colcon_meta'
+[0.450s] Level 1:colcon.colcon_core.package_identification:_identify(src/Navigation) by extensions ['ros']
+[0.450s] Level 1:colcon.colcon_core.package_identification:_identify(src/Navigation) by extension 'ros'
+[0.450s] DEBUG:colcon.colcon_core.package_identification:Package 'src/Navigation' with type 'ros.ament_python' and name 'Navigation'
+[0.450s] Level 1:colcon.colcon_core.package_identification:_identify(src/interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.451s] Level 1:colcon.colcon_core.package_identification:_identify(src/interfaces) by extension 'ignore'
+[0.451s] Level 1:colcon.colcon_core.package_identification:_identify(src/interfaces) by extension 'ignore_ament_install'
+[0.451s] Level 1:colcon.colcon_core.package_identification:_identify(src/interfaces) by extensions ['colcon_pkg']
+[0.451s] Level 1:colcon.colcon_core.package_identification:_identify(src/interfaces) by extension 'colcon_pkg'
+[0.451s] Level 1:colcon.colcon_core.package_identification:_identify(src/interfaces) by extensions ['colcon_meta']
+[0.451s] Level 1:colcon.colcon_core.package_identification:_identify(src/interfaces) by extension 'colcon_meta'
+[0.451s] Level 1:colcon.colcon_core.package_identification:_identify(src/interfaces) by extensions ['ros']
+[0.451s] Level 1:colcon.colcon_core.package_identification:_identify(src/interfaces) by extension 'ros'
+[0.451s] DEBUG:colcon.colcon_core.package_identification:Package 'src/interfaces' with type 'ros.ament_python' and name 'interfaces'
+[0.451s] Level 1:colcon.colcon_core.package_identification:_identify(src/testing) by extensions ['ignore', 'ignore_ament_install']
+[0.451s] Level 1:colcon.colcon_core.package_identification:_identify(src/testing) by extension 'ignore'
+[0.451s] Level 1:colcon.colcon_core.package_identification:_identify(src/testing) by extension 'ignore_ament_install'
+[0.451s] Level 1:colcon.colcon_core.package_identification:_identify(src/testing) by extensions ['colcon_pkg']
+[0.451s] Level 1:colcon.colcon_core.package_identification:_identify(src/testing) by extension 'colcon_pkg'
+[0.452s] Level 1:colcon.colcon_core.package_identification:_identify(src/testing) by extensions ['colcon_meta']
+[0.452s] Level 1:colcon.colcon_core.package_identification:_identify(src/testing) by extension 'colcon_meta'
+[0.452s] Level 1:colcon.colcon_core.package_identification:_identify(src/testing) by extensions ['ros']
+[0.452s] Level 1:colcon.colcon_core.package_identification:_identify(src/testing) by extension 'ros'
+[0.452s] DEBUG:colcon.colcon_core.package_identification:Package 'src/testing' with type 'ros.ament_python' and name 'testing'
+[0.452s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.452s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.452s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.452s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.452s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.478s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.478s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.481s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 4 installed packages in /home/leroy7/ros_ws/install
+[0.482s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 270 installed packages in /opt/ros/humble
+[0.483s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.538s] Level 5:colcon.colcon_core.verb:set package 'GPS' build argument 'cmake_args' from command line to 'None'
+[0.538s] Level 5:colcon.colcon_core.verb:set package 'GPS' build argument 'cmake_target' from command line to 'None'
+[0.538s] Level 5:colcon.colcon_core.verb:set package 'GPS' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.538s] Level 5:colcon.colcon_core.verb:set package 'GPS' build argument 'cmake_clean_cache' from command line to 'False'
+[0.538s] Level 5:colcon.colcon_core.verb:set package 'GPS' build argument 'cmake_clean_first' from command line to 'False'
+[0.538s] Level 5:colcon.colcon_core.verb:set package 'GPS' build argument 'cmake_force_configure' from command line to 'False'
+[0.538s] Level 5:colcon.colcon_core.verb:set package 'GPS' build argument 'ament_cmake_args' from command line to 'None'
+[0.538s] Level 5:colcon.colcon_core.verb:set package 'GPS' build argument 'catkin_cmake_args' from command line to 'None'
+[0.538s] Level 5:colcon.colcon_core.verb:set package 'GPS' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.538s] DEBUG:colcon.colcon_core.verb:Building package 'GPS' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/leroy7/ros_ws/build/GPS', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/leroy7/ros_ws/install/GPS', 'merge_install': False, 'path': '/home/leroy7/ros_ws/src/GPS', 'symlink_install': False, 'test_result_base': None}
+[0.539s] Level 5:colcon.colcon_core.verb:set package 'Navigation' build argument 'cmake_args' from command line to 'None'
+[0.540s] Level 5:colcon.colcon_core.verb:set package 'Navigation' build argument 'cmake_target' from command line to 'None'
+[0.540s] Level 5:colcon.colcon_core.verb:set package 'Navigation' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.540s] Level 5:colcon.colcon_core.verb:set package 'Navigation' build argument 'cmake_clean_cache' from command line to 'False'
+[0.540s] Level 5:colcon.colcon_core.verb:set package 'Navigation' build argument 'cmake_clean_first' from command line to 'False'
+[0.540s] Level 5:colcon.colcon_core.verb:set package 'Navigation' build argument 'cmake_force_configure' from command line to 'False'
+[0.540s] Level 5:colcon.colcon_core.verb:set package 'Navigation' build argument 'ament_cmake_args' from command line to 'None'
+[0.540s] Level 5:colcon.colcon_core.verb:set package 'Navigation' build argument 'catkin_cmake_args' from command line to 'None'
+[0.540s] Level 5:colcon.colcon_core.verb:set package 'Navigation' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.540s] DEBUG:colcon.colcon_core.verb:Building package 'Navigation' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/leroy7/ros_ws/build/Navigation', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/leroy7/ros_ws/install/Navigation', 'merge_install': False, 'path': '/home/leroy7/ros_ws/src/Navigation', 'symlink_install': False, 'test_result_base': None}
+[0.541s] Level 5:colcon.colcon_core.verb:set package 'interfaces' build argument 'cmake_args' from command line to 'None'
+[0.541s] Level 5:colcon.colcon_core.verb:set package 'interfaces' build argument 'cmake_target' from command line to 'None'
+[0.541s] Level 5:colcon.colcon_core.verb:set package 'interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.541s] Level 5:colcon.colcon_core.verb:set package 'interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[0.541s] Level 5:colcon.colcon_core.verb:set package 'interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[0.541s] Level 5:colcon.colcon_core.verb:set package 'interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[0.541s] Level 5:colcon.colcon_core.verb:set package 'interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[0.541s] Level 5:colcon.colcon_core.verb:set package 'interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[0.541s] Level 5:colcon.colcon_core.verb:set package 'interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.541s] DEBUG:colcon.colcon_core.verb:Building package 'interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/leroy7/ros_ws/build/interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/leroy7/ros_ws/install/interfaces', 'merge_install': False, 'path': '/home/leroy7/ros_ws/src/interfaces', 'symlink_install': False, 'test_result_base': None}
+[0.542s] Level 5:colcon.colcon_core.verb:set package 'testing' build argument 'cmake_args' from command line to 'None'
+[0.542s] Level 5:colcon.colcon_core.verb:set package 'testing' build argument 'cmake_target' from command line to 'None'
+[0.542s] Level 5:colcon.colcon_core.verb:set package 'testing' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.542s] Level 5:colcon.colcon_core.verb:set package 'testing' build argument 'cmake_clean_cache' from command line to 'False'
+[0.542s] Level 5:colcon.colcon_core.verb:set package 'testing' build argument 'cmake_clean_first' from command line to 'False'
+[0.542s] Level 5:colcon.colcon_core.verb:set package 'testing' build argument 'cmake_force_configure' from command line to 'False'
+[0.542s] Level 5:colcon.colcon_core.verb:set package 'testing' build argument 'ament_cmake_args' from command line to 'None'
+[0.542s] Level 5:colcon.colcon_core.verb:set package 'testing' build argument 'catkin_cmake_args' from command line to 'None'
+[0.542s] Level 5:colcon.colcon_core.verb:set package 'testing' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.542s] DEBUG:colcon.colcon_core.verb:Building package 'testing' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/leroy7/ros_ws/build/testing', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/leroy7/ros_ws/install/testing', 'merge_install': False, 'path': '/home/leroy7/ros_ws/src/testing', 'symlink_install': False, 'test_result_base': None}
+[0.543s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.547s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.547s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/leroy7/ros_ws/src/GPS' with build type 'ament_python'
+[0.548s] Level 1:colcon.colcon_core.shell:create_environment_hook('GPS', 'ament_prefix_path')
+[0.553s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.553s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leroy7/ros_ws/install/GPS/share/GPS/hook/ament_prefix_path.ps1'
+[0.554s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/leroy7/ros_ws/install/GPS/share/GPS/hook/ament_prefix_path.dsv'
+[0.555s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leroy7/ros_ws/install/GPS/share/GPS/hook/ament_prefix_path.sh'
+[0.557s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.557s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.562s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/leroy7/ros_ws/src/Navigation' with build type 'ament_python'
+[0.562s] Level 1:colcon.colcon_core.shell:create_environment_hook('Navigation', 'ament_prefix_path')
+[0.563s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leroy7/ros_ws/install/Navigation/share/Navigation/hook/ament_prefix_path.ps1'
+[0.565s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/leroy7/ros_ws/install/Navigation/share/Navigation/hook/ament_prefix_path.dsv'
+[0.565s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leroy7/ros_ws/install/Navigation/share/Navigation/hook/ament_prefix_path.sh'
+[0.569s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.569s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.578s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/leroy7/ros_ws/src/interfaces' with build type 'ament_python'
+[0.579s] Level 1:colcon.colcon_core.shell:create_environment_hook('interfaces', 'ament_prefix_path')
+[0.580s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leroy7/ros_ws/install/interfaces/share/interfaces/hook/ament_prefix_path.ps1'
+[0.581s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/leroy7/ros_ws/install/interfaces/share/interfaces/hook/ament_prefix_path.dsv'
+[0.582s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leroy7/ros_ws/install/interfaces/share/interfaces/hook/ament_prefix_path.sh'
+[0.584s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.584s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.590s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/leroy7/ros_ws/src/testing' with build type 'ament_python'
+[0.591s] Level 1:colcon.colcon_core.shell:create_environment_hook('testing', 'ament_prefix_path')
+[0.593s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leroy7/ros_ws/install/testing/share/testing/hook/ament_prefix_path.ps1'
+[0.594s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/leroy7/ros_ws/install/testing/share/testing/hook/ament_prefix_path.dsv'
+[0.595s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leroy7/ros_ws/install/testing/share/testing/hook/ament_prefix_path.sh'
+[0.597s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.597s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.850s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/leroy7/ros_ws/src/GPS'
+[0.851s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.851s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.069s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/leroy7/ros_ws/src/Navigation'
+[1.070s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.070s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.307s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/leroy7/ros_ws/src/interfaces'
+[1.308s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.308s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.530s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/leroy7/ros_ws/src/testing'
+[1.531s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.531s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.935s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/leroy7/ros_ws/src/interfaces': PYTHONPATH=/home/leroy7/ros_ws/build/interfaces/prefix_override:/home/leroy7/ros_ws/install/interfaces/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/interfaces build --build-base /home/leroy7/ros_ws/build/interfaces/build install --record /home/leroy7/ros_ws/build/interfaces/install.log --single-version-externally-managed
+[1.965s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/leroy7/ros_ws/src/testing': PYTHONPATH=/home/leroy7/ros_ws/build/testing/prefix_override:/home/leroy7/ros_ws/install/testing/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/testing build --build-base /home/leroy7/ros_ws/build/testing/build install --record /home/leroy7/ros_ws/build/testing/install.log --single-version-externally-managed
+[1.969s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/leroy7/ros_ws/src/GPS': PYTHONPATH=/home/leroy7/ros_ws/build/GPS/prefix_override:/home/leroy7/ros_ws/install/GPS/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/GPS build --build-base /home/leroy7/ros_ws/build/GPS/build install --record /home/leroy7/ros_ws/build/GPS/install.log --single-version-externally-managed
+[1.988s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/leroy7/ros_ws/src/Navigation': PYTHONPATH=/home/leroy7/ros_ws/build/Navigation/prefix_override:/home/leroy7/ros_ws/install/Navigation/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/Navigation build --build-base /home/leroy7/ros_ws/build/Navigation/build install --record /home/leroy7/ros_ws/build/Navigation/install.log --single-version-externally-managed
+[2.388s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/leroy7/ros_ws/src/interfaces' returned '0': PYTHONPATH=/home/leroy7/ros_ws/build/interfaces/prefix_override:/home/leroy7/ros_ws/install/interfaces/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/interfaces build --build-base /home/leroy7/ros_ws/build/interfaces/build install --record /home/leroy7/ros_ws/build/interfaces/install.log --single-version-externally-managed
+[2.394s] Level 1:colcon.colcon_core.environment:checking '/home/leroy7/ros_ws/install/interfaces' for CMake module files
+[2.395s] Level 1:colcon.colcon_core.environment:checking '/home/leroy7/ros_ws/install/interfaces' for CMake config files
+[2.396s] Level 1:colcon.colcon_core.environment:checking '/home/leroy7/ros_ws/install/interfaces/lib'
+[2.396s] Level 1:colcon.colcon_core.environment:checking '/home/leroy7/ros_ws/install/interfaces/bin'
+[2.396s] Level 1:colcon.colcon_core.environment:checking '/home/leroy7/ros_ws/install/interfaces/lib/pkgconfig/interfaces.pc'
+[2.396s] Level 1:colcon.colcon_core.environment:checking '/home/leroy7/ros_ws/install/interfaces/lib/python3.10/site-packages'
+[2.396s] Level 1:colcon.colcon_core.shell:create_environment_hook('interfaces', 'pythonpath')
+[2.398s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leroy7/ros_ws/install/interfaces/share/interfaces/hook/pythonpath.ps1'
+[2.399s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/leroy7/ros_ws/install/interfaces/share/interfaces/hook/pythonpath.dsv'
+[2.400s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leroy7/ros_ws/install/interfaces/share/interfaces/hook/pythonpath.sh'
+[2.401s] Level 1:colcon.colcon_core.environment:checking '/home/leroy7/ros_ws/install/interfaces/bin'
+[2.401s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(interfaces)
+[2.402s] INFO:colcon.colcon_core.shell:Creating package script '/home/leroy7/ros_ws/install/interfaces/share/interfaces/package.ps1'
+[2.404s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/leroy7/ros_ws/install/interfaces/share/interfaces/package.dsv'
+[2.405s] INFO:colcon.colcon_core.shell:Creating package script '/home/leroy7/ros_ws/install/interfaces/share/interfaces/package.sh'
+[2.406s] INFO:colcon.colcon_core.shell:Creating package script '/home/leroy7/ros_ws/install/interfaces/share/interfaces/package.bash'
+[2.407s] INFO:colcon.colcon_core.shell:Creating package script '/home/leroy7/ros_ws/install/interfaces/share/interfaces/package.zsh'
+[2.407s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/leroy7/ros_ws/install/interfaces/share/colcon-core/packages/interfaces)
+[2.415s] Level 1:colcon.colcon_core.environment:checking '/home/leroy7/ros_ws/install/testing' for CMake module files
+[2.416s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/leroy7/ros_ws/src/testing' returned '0': PYTHONPATH=/home/leroy7/ros_ws/build/testing/prefix_override:/home/leroy7/ros_ws/install/testing/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/testing build --build-base /home/leroy7/ros_ws/build/testing/build install --record /home/leroy7/ros_ws/build/testing/install.log --single-version-externally-managed
+[2.416s] Level 1:colcon.colcon_core.environment:checking '/home/leroy7/ros_ws/install/testing' for CMake config files
+[2.417s] Level 1:colcon.colcon_core.environment:checking '/home/leroy7/ros_ws/install/testing/lib'
+[2.417s] Level 1:colcon.colcon_core.environment:checking '/home/leroy7/ros_ws/install/testing/bin'
+[2.417s] Level 1:colcon.colcon_core.environment:checking '/home/leroy7/ros_ws/install/testing/lib/pkgconfig/testing.pc'
+[2.418s] Level 1:colcon.colcon_core.environment:checking '/home/leroy7/ros_ws/install/testing/lib/python3.10/site-packages'
+[2.418s] Level 1:colcon.colcon_core.shell:create_environment_hook('testing', 'pythonpath')
+[2.420s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leroy7/ros_ws/install/testing/share/testing/hook/pythonpath.ps1'
+[2.420s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/leroy7/ros_ws/install/testing/share/testing/hook/pythonpath.dsv'
+[2.420s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leroy7/ros_ws/install/testing/share/testing/hook/pythonpath.sh'
+[2.421s] Level 1:colcon.colcon_core.environment:checking '/home/leroy7/ros_ws/install/testing/bin'
+[2.422s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(testing)
+[2.424s] INFO:colcon.colcon_core.shell:Creating package script '/home/leroy7/ros_ws/install/testing/share/testing/package.ps1'
+[2.424s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/leroy7/ros_ws/install/testing/share/testing/package.dsv'
+[2.425s] INFO:colcon.colcon_core.shell:Creating package script '/home/leroy7/ros_ws/install/testing/share/testing/package.sh'
+[2.425s] INFO:colcon.colcon_core.shell:Creating package script '/home/leroy7/ros_ws/install/testing/share/testing/package.bash'
+[2.426s] INFO:colcon.colcon_core.shell:Creating package script '/home/leroy7/ros_ws/install/testing/share/testing/package.zsh'
+[2.426s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/leroy7/ros_ws/install/testing/share/colcon-core/packages/testing)
+[2.431s] Level 1:colcon.colcon_core.environment:checking '/home/leroy7/ros_ws/install/GPS' for CMake module files
+[2.433s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/leroy7/ros_ws/src/GPS' returned '0': PYTHONPATH=/home/leroy7/ros_ws/build/GPS/prefix_override:/home/leroy7/ros_ws/install/GPS/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/GPS build --build-base /home/leroy7/ros_ws/build/GPS/build install --record /home/leroy7/ros_ws/build/GPS/install.log --single-version-externally-managed
+[2.433s] Level 1:colcon.colcon_core.environment:checking '/home/leroy7/ros_ws/install/GPS' for CMake config files
+[2.433s] Level 1:colcon.colcon_core.environment:checking '/home/leroy7/ros_ws/install/GPS/lib'
+[2.433s] Level 1:colcon.colcon_core.environment:checking '/home/leroy7/ros_ws/install/GPS/bin'
+[2.433s] Level 1:colcon.colcon_core.environment:checking '/home/leroy7/ros_ws/install/GPS/lib/pkgconfig/GPS.pc'
+[2.434s] Level 1:colcon.colcon_core.environment:checking '/home/leroy7/ros_ws/install/GPS/lib/python3.10/site-packages'
+[2.434s] Level 1:colcon.colcon_core.shell:create_environment_hook('GPS', 'pythonpath')
+[2.436s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leroy7/ros_ws/install/GPS/share/GPS/hook/pythonpath.ps1'
+[2.436s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/leroy7/ros_ws/install/GPS/share/GPS/hook/pythonpath.dsv'
+[2.436s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leroy7/ros_ws/install/GPS/share/GPS/hook/pythonpath.sh'
+[2.437s] Level 1:colcon.colcon_core.environment:checking '/home/leroy7/ros_ws/install/GPS/bin'
+[2.437s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(GPS)
+[2.439s] INFO:colcon.colcon_core.shell:Creating package script '/home/leroy7/ros_ws/install/GPS/share/GPS/package.ps1'
+[2.440s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/leroy7/ros_ws/install/GPS/share/GPS/package.dsv'
+[2.440s] INFO:colcon.colcon_core.shell:Creating package script '/home/leroy7/ros_ws/install/GPS/share/GPS/package.sh'
+[2.441s] INFO:colcon.colcon_core.shell:Creating package script '/home/leroy7/ros_ws/install/GPS/share/GPS/package.bash'
+[2.441s] INFO:colcon.colcon_core.shell:Creating package script '/home/leroy7/ros_ws/install/GPS/share/GPS/package.zsh'
+[2.441s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/leroy7/ros_ws/install/GPS/share/colcon-core/packages/GPS)
+[2.444s] Level 1:colcon.colcon_core.environment:checking '/home/leroy7/ros_ws/install/Navigation' for CMake module files
+[2.445s] Level 1:colcon.colcon_core.environment:checking '/home/leroy7/ros_ws/install/Navigation' for CMake config files
+[2.446s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/leroy7/ros_ws/src/Navigation' returned '0': PYTHONPATH=/home/leroy7/ros_ws/build/Navigation/prefix_override:/home/leroy7/ros_ws/install/Navigation/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/Navigation build --build-base /home/leroy7/ros_ws/build/Navigation/build install --record /home/leroy7/ros_ws/build/Navigation/install.log --single-version-externally-managed
+[2.446s] Level 1:colcon.colcon_core.environment:checking '/home/leroy7/ros_ws/install/Navigation/lib'
+[2.446s] Level 1:colcon.colcon_core.environment:checking '/home/leroy7/ros_ws/install/Navigation/bin'
+[2.446s] Level 1:colcon.colcon_core.environment:checking '/home/leroy7/ros_ws/install/Navigation/lib/pkgconfig/Navigation.pc'
+[2.447s] Level 1:colcon.colcon_core.environment:checking '/home/leroy7/ros_ws/install/Navigation/lib/python3.10/site-packages'
+[2.447s] Level 1:colcon.colcon_core.shell:create_environment_hook('Navigation', 'pythonpath')
+[2.448s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leroy7/ros_ws/install/Navigation/share/Navigation/hook/pythonpath.ps1'
+[2.449s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/leroy7/ros_ws/install/Navigation/share/Navigation/hook/pythonpath.dsv'
+[2.449s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leroy7/ros_ws/install/Navigation/share/Navigation/hook/pythonpath.sh'
+[2.450s] Level 1:colcon.colcon_core.environment:checking '/home/leroy7/ros_ws/install/Navigation/bin'
+[2.450s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(Navigation)
+[2.451s] INFO:colcon.colcon_core.shell:Creating package script '/home/leroy7/ros_ws/install/Navigation/share/Navigation/package.ps1'
+[2.451s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/leroy7/ros_ws/install/Navigation/share/Navigation/package.dsv'
+[2.452s] INFO:colcon.colcon_core.shell:Creating package script '/home/leroy7/ros_ws/install/Navigation/share/Navigation/package.sh'
+[2.452s] INFO:colcon.colcon_core.shell:Creating package script '/home/leroy7/ros_ws/install/Navigation/share/Navigation/package.bash'
+[2.452s] INFO:colcon.colcon_core.shell:Creating package script '/home/leroy7/ros_ws/install/Navigation/share/Navigation/package.zsh'
+[2.453s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/leroy7/ros_ws/install/Navigation/share/colcon-core/packages/Navigation)
+[2.453s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[2.454s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[2.454s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[2.454s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[2.531s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[2.531s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[2.531s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[2.531s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[2.532s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+[2.532s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[2.534s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/leroy7/ros_ws/install/local_setup.ps1'
+[2.534s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/leroy7/ros_ws/install/_local_setup_util_ps1.py'
+[2.536s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/leroy7/ros_ws/install/setup.ps1'
+[2.537s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/leroy7/ros_ws/install/local_setup.sh'
+[2.538s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/leroy7/ros_ws/install/_local_setup_util_sh.py'
+[2.538s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/leroy7/ros_ws/install/setup.sh'
+[2.539s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/leroy7/ros_ws/install/local_setup.bash'
+[2.540s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/leroy7/ros_ws/install/setup.bash'
+[2.541s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/leroy7/ros_ws/install/local_setup.zsh'
+[2.541s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/leroy7/ros_ws/install/setup.zsh'

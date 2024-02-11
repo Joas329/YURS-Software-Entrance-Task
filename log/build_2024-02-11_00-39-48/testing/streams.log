@@ -1,0 +1,33 @@
+[3.779s] Invoking command in '/home/leroy7/ros_ws/src/testing': PYTHONPATH=/home/leroy7/ros_ws/build/testing/prefix_override:/home/leroy7/ros_ws/install/testing/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/testing build --build-base /home/leroy7/ros_ws/build/testing/build install --record /home/leroy7/ros_ws/build/testing/install.log --single-version-externally-managed
+[4.202s] running egg_info
+[4.203s] creating ../../build/testing/testing.egg-info
+[4.203s] writing ../../build/testing/testing.egg-info/PKG-INFO
+[4.204s] writing dependency_links to ../../build/testing/testing.egg-info/dependency_links.txt
+[4.204s] writing entry points to ../../build/testing/testing.egg-info/entry_points.txt
+[4.205s] writing requirements to ../../build/testing/testing.egg-info/requires.txt
+[4.205s] writing top-level names to ../../build/testing/testing.egg-info/top_level.txt
+[4.206s] writing manifest file '../../build/testing/testing.egg-info/SOURCES.txt'
+[4.210s] reading manifest file '../../build/testing/testing.egg-info/SOURCES.txt'
+[4.211s] writing manifest file '../../build/testing/testing.egg-info/SOURCES.txt'
+[4.212s] running build
+[4.212s] running build_py
+[4.212s] creating /home/leroy7/ros_ws/build/testing/build
+[4.213s] creating /home/leroy7/ros_ws/build/testing/build/lib
+[4.213s] creating /home/leroy7/ros_ws/build/testing/build/lib/testing
+[4.213s] copying testing/__init__.py -> /home/leroy7/ros_ws/build/testing/build/lib/testing
+[4.214s] running install
+[4.215s] running install_lib
+[4.215s] creating /home/leroy7/ros_ws/install/testing/lib/python3.10/site-packages/testing
+[4.216s] copying /home/leroy7/ros_ws/build/testing/build/lib/testing/__init__.py -> /home/leroy7/ros_ws/install/testing/lib/python3.10/site-packages/testing
+[4.216s] byte-compiling /home/leroy7/ros_ws/install/testing/lib/python3.10/site-packages/testing/__init__.py to __init__.cpython-310.pyc
+[4.217s] running install_data
+[4.218s] creating /home/leroy7/ros_ws/install/testing/share/ament_index
+[4.218s] creating /home/leroy7/ros_ws/install/testing/share/ament_index/resource_index
+[4.219s] creating /home/leroy7/ros_ws/install/testing/share/ament_index/resource_index/packages
+[4.219s] copying resource/testing -> /home/leroy7/ros_ws/install/testing/share/ament_index/resource_index/packages
+[4.219s] copying package.xml -> /home/leroy7/ros_ws/install/testing/share/testing
+[4.219s] running install_egg_info
+[4.222s] Copying ../../build/testing/testing.egg-info to /home/leroy7/ros_ws/install/testing/lib/python3.10/site-packages/testing-0.0.0-py3.10.egg-info
+[4.225s] running install_scripts
+[4.257s] writing list of installed files to '/home/leroy7/ros_ws/build/testing/install.log'
+[4.381s] Invoked command in '/home/leroy7/ros_ws/src/testing' returned '0': PYTHONPATH=/home/leroy7/ros_ws/build/testing/prefix_override:/home/leroy7/ros_ws/install/testing/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/testing build --build-base /home/leroy7/ros_ws/build/testing/build install --record /home/leroy7/ros_ws/build/testing/install.log --single-version-externally-managed

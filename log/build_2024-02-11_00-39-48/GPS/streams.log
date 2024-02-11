@@ -1,0 +1,33 @@
+[3.855s] Invoking command in '/home/leroy7/ros_ws/src/GPS': PYTHONPATH=/home/leroy7/ros_ws/build/GPS/prefix_override:/home/leroy7/ros_ws/install/GPS/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/GPS build --build-base /home/leroy7/ros_ws/build/GPS/build install --record /home/leroy7/ros_ws/build/GPS/install.log --single-version-externally-managed
+[4.279s] running egg_info
+[4.279s] creating ../../build/GPS/GPS.egg-info
+[4.280s] writing ../../build/GPS/GPS.egg-info/PKG-INFO
+[4.280s] writing dependency_links to ../../build/GPS/GPS.egg-info/dependency_links.txt
+[4.288s] writing entry points to ../../build/GPS/GPS.egg-info/entry_points.txt
+[4.288s] writing requirements to ../../build/GPS/GPS.egg-info/requires.txt
+[4.288s] writing top-level names to ../../build/GPS/GPS.egg-info/top_level.txt
+[4.288s] writing manifest file '../../build/GPS/GPS.egg-info/SOURCES.txt'
+[4.291s] reading manifest file '../../build/GPS/GPS.egg-info/SOURCES.txt'
+[4.292s] writing manifest file '../../build/GPS/GPS.egg-info/SOURCES.txt'
+[4.293s] running build
+[4.293s] running build_py
+[4.293s] creating /home/leroy7/ros_ws/build/GPS/build
+[4.293s] creating /home/leroy7/ros_ws/build/GPS/build/lib
+[4.293s] creating /home/leroy7/ros_ws/build/GPS/build/lib/GPS
+[4.293s] copying GPS/__init__.py -> /home/leroy7/ros_ws/build/GPS/build/lib/GPS
+[4.294s] running install
+[4.294s] running install_lib
+[4.295s] creating /home/leroy7/ros_ws/install/GPS/lib/python3.10/site-packages/GPS
+[4.296s] copying /home/leroy7/ros_ws/build/GPS/build/lib/GPS/__init__.py -> /home/leroy7/ros_ws/install/GPS/lib/python3.10/site-packages/GPS
+[4.299s] byte-compiling /home/leroy7/ros_ws/install/GPS/lib/python3.10/site-packages/GPS/__init__.py to __init__.cpython-310.pyc
+[4.299s] running install_data
+[4.302s] creating /home/leroy7/ros_ws/install/GPS/share/ament_index
+[4.303s] creating /home/leroy7/ros_ws/install/GPS/share/ament_index/resource_index
+[4.304s] creating /home/leroy7/ros_ws/install/GPS/share/ament_index/resource_index/packages
+[4.304s] copying resource/GPS -> /home/leroy7/ros_ws/install/GPS/share/ament_index/resource_index/packages
+[4.305s] copying package.xml -> /home/leroy7/ros_ws/install/GPS/share/GPS
+[4.306s] running install_egg_info
+[4.309s] Copying ../../build/GPS/GPS.egg-info to /home/leroy7/ros_ws/install/GPS/lib/python3.10/site-packages/GPS-0.0.0-py3.10.egg-info
+[4.312s] running install_scripts
+[4.342s] writing list of installed files to '/home/leroy7/ros_ws/build/GPS/install.log'
+[4.419s] Invoked command in '/home/leroy7/ros_ws/src/GPS' returned '0': PYTHONPATH=/home/leroy7/ros_ws/build/GPS/prefix_override:/home/leroy7/ros_ws/install/GPS/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/GPS build --build-base /home/leroy7/ros_ws/build/GPS/build install --record /home/leroy7/ros_ws/build/GPS/install.log --single-version-externally-managed

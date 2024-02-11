@@ -1,0 +1,15 @@
+package.xml
+setup.cfg
+setup.py
+../../build/GPS/GPS.egg-info/PKG-INFO
+../../build/GPS/GPS.egg-info/SOURCES.txt
+../../build/GPS/GPS.egg-info/dependency_links.txt
+../../build/GPS/GPS.egg-info/entry_points.txt
+../../build/GPS/GPS.egg-info/requires.txt
+../../build/GPS/GPS.egg-info/top_level.txt
+../../build/GPS/GPS.egg-info/zip-safe
+GPS/__init__.py
+resource/GPS
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py

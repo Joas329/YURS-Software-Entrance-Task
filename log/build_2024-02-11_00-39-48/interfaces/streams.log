@@ -1,0 +1,33 @@
+[3.827s] Invoking command in '/home/leroy7/ros_ws/src/interfaces': PYTHONPATH=/home/leroy7/ros_ws/build/interfaces/prefix_override:/home/leroy7/ros_ws/install/interfaces/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/interfaces build --build-base /home/leroy7/ros_ws/build/interfaces/build install --record /home/leroy7/ros_ws/build/interfaces/install.log --single-version-externally-managed
+[4.227s] running egg_info
+[4.228s] creating ../../build/interfaces/interfaces.egg-info
+[4.229s] writing ../../build/interfaces/interfaces.egg-info/PKG-INFO
+[4.229s] writing dependency_links to ../../build/interfaces/interfaces.egg-info/dependency_links.txt
+[4.230s] writing entry points to ../../build/interfaces/interfaces.egg-info/entry_points.txt
+[4.230s] writing requirements to ../../build/interfaces/interfaces.egg-info/requires.txt
+[4.231s] writing top-level names to ../../build/interfaces/interfaces.egg-info/top_level.txt
+[4.231s] writing manifest file '../../build/interfaces/interfaces.egg-info/SOURCES.txt'
+[4.234s] reading manifest file '../../build/interfaces/interfaces.egg-info/SOURCES.txt'
+[4.235s] writing manifest file '../../build/interfaces/interfaces.egg-info/SOURCES.txt'
+[4.235s] running build
+[4.235s] running build_py
+[4.235s] creating /home/leroy7/ros_ws/build/interfaces/build
+[4.236s] creating /home/leroy7/ros_ws/build/interfaces/build/lib
+[4.236s] creating /home/leroy7/ros_ws/build/interfaces/build/lib/interfaces
+[4.237s] copying interfaces/__init__.py -> /home/leroy7/ros_ws/build/interfaces/build/lib/interfaces
+[4.238s] running install
+[4.239s] running install_lib
+[4.240s] creating /home/leroy7/ros_ws/install/interfaces/lib/python3.10/site-packages/interfaces
+[4.241s] copying /home/leroy7/ros_ws/build/interfaces/build/lib/interfaces/__init__.py -> /home/leroy7/ros_ws/install/interfaces/lib/python3.10/site-packages/interfaces
+[4.241s] byte-compiling /home/leroy7/ros_ws/install/interfaces/lib/python3.10/site-packages/interfaces/__init__.py to __init__.cpython-310.pyc
+[4.242s] running install_data
+[4.242s] creating /home/leroy7/ros_ws/install/interfaces/share/ament_index
+[4.243s] creating /home/leroy7/ros_ws/install/interfaces/share/ament_index/resource_index
+[4.243s] creating /home/leroy7/ros_ws/install/interfaces/share/ament_index/resource_index/packages
+[4.243s] copying resource/interfaces -> /home/leroy7/ros_ws/install/interfaces/share/ament_index/resource_index/packages
+[4.244s] copying package.xml -> /home/leroy7/ros_ws/install/interfaces/share/interfaces
+[4.244s] running install_egg_info
+[4.246s] Copying ../../build/interfaces/interfaces.egg-info to /home/leroy7/ros_ws/install/interfaces/lib/python3.10/site-packages/interfaces-0.0.0-py3.10.egg-info
+[4.248s] running install_scripts
+[4.279s] writing list of installed files to '/home/leroy7/ros_ws/build/interfaces/install.log'
+[4.380s] Invoked command in '/home/leroy7/ros_ws/src/interfaces' returned '0': PYTHONPATH=/home/leroy7/ros_ws/build/interfaces/prefix_override:/home/leroy7/ros_ws/install/interfaces/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/interfaces build --build-base /home/leroy7/ros_ws/build/interfaces/build install --record /home/leroy7/ros_ws/build/interfaces/install.log --single-version-externally-managed

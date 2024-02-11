@@ -1,0 +1,34 @@
+[3.832s] Invoking command in '/home/leroy7/ros_ws/src/Navigation': PYTHONPATH=/home/leroy7/ros_ws/build/Navigation/prefix_override:/home/leroy7/ros_ws/install/Navigation/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/Navigation build --build-base /home/leroy7/ros_ws/build/Navigation/build install --record /home/leroy7/ros_ws/build/Navigation/install.log --single-version-externally-managed
+[4.257s] running egg_info
+[4.258s] creating ../../build/Navigation/Navigation.egg-info
+[4.259s] writing ../../build/Navigation/Navigation.egg-info/PKG-INFO
+[4.260s] writing dependency_links to ../../build/Navigation/Navigation.egg-info/dependency_links.txt
+[4.260s] writing entry points to ../../build/Navigation/Navigation.egg-info/entry_points.txt
+[4.262s] writing requirements to ../../build/Navigation/Navigation.egg-info/requires.txt
+[4.262s] writing top-level names to ../../build/Navigation/Navigation.egg-info/top_level.txt
+[4.262s] writing manifest file '../../build/Navigation/Navigation.egg-info/SOURCES.txt'
+[4.265s] reading manifest file '../../build/Navigation/Navigation.egg-info/SOURCES.txt'
+[4.266s] writing manifest file '../../build/Navigation/Navigation.egg-info/SOURCES.txt'
+[4.267s] running build
+[4.267s] running build_py
+[4.267s] creating /home/leroy7/ros_ws/build/Navigation/build
+[4.268s] creating /home/leroy7/ros_ws/build/Navigation/build/lib
+[4.269s] creating /home/leroy7/ros_ws/build/Navigation/build/lib/Navigation
+[4.269s] copying Navigation/__init__.py -> /home/leroy7/ros_ws/build/Navigation/build/lib/Navigation
+[4.269s] running install
+[4.270s] running install_lib
+[4.271s] creating /home/leroy7/ros_ws/install/Navigation/lib/python3.10/site-packages/Navigation
+[4.271s] copying /home/leroy7/ros_ws/build/Navigation/build/lib/Navigation/__init__.py -> /home/leroy7/ros_ws/install/Navigation/lib/python3.10/site-packages/Navigation
+[4.272s] byte-compiling /home/leroy7/ros_ws/install/Navigation/lib/python3.10/site-packages/Navigation/__init__.py to __init__.cpython-310.pyc
+[4.273s] running install_data
+[4.274s] creating /home/leroy7/ros_ws/install/Navigation/share/ament_index
+[4.275s] creating /home/leroy7/ros_ws/install/Navigation/share/ament_index/resource_index
+[4.275s] creating /home/leroy7/ros_ws/install/Navigation/share/ament_index/resource_index/packages
+[4.276s] copying resource/Navigation -> /home/leroy7/ros_ws/install/Navigation/share/ament_index/resource_index/packages
+[4.276s] copying package.xml -> /home/leroy7/ros_ws/install/Navigation/share/Navigation
+[4.277s] running install_egg_info
+[4.279s] Copying ../../build/Navigation/Navigation.egg-info to /home/leroy7/ros_ws/install/Navigation/lib/python3.10/site-packages/Navigation-0.0.0-py3.10.egg-info
+[4.281s] running install_scripts
+[4.320s] Installing GPS script to /home/leroy7/ros_ws/install/Navigation/lib/Navigation
+[4.321s] writing list of installed files to '/home/leroy7/ros_ws/build/Navigation/install.log'
+[4.433s] Invoked command in '/home/leroy7/ros_ws/src/Navigation' returned '0': PYTHONPATH=/home/leroy7/ros_ws/build/Navigation/prefix_override:/home/leroy7/ros_ws/install/Navigation/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/Navigation build --build-base /home/leroy7/ros_ws/build/Navigation/build install --record /home/leroy7/ros_ws/build/Navigation/install.log --single-version-externally-managed

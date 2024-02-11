@@ -1,0 +1,20 @@
+[1.849s] Invoking command in '/home/leroy7/ros_ws/src/testing': PYTHONPATH=/home/leroy7/ros_ws/build/testing/prefix_override:/home/leroy7/ros_ws/install/testing/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/testing build --build-base /home/leroy7/ros_ws/build/testing/build install --record /home/leroy7/ros_ws/build/testing/install.log --single-version-externally-managed
+[2.183s] running egg_info
+[2.184s] writing ../../build/testing/testing.egg-info/PKG-INFO
+[2.184s] writing dependency_links to ../../build/testing/testing.egg-info/dependency_links.txt
+[2.184s] writing entry points to ../../build/testing/testing.egg-info/entry_points.txt
+[2.185s] writing requirements to ../../build/testing/testing.egg-info/requires.txt
+[2.185s] writing top-level names to ../../build/testing/testing.egg-info/top_level.txt
+[2.188s] reading manifest file '../../build/testing/testing.egg-info/SOURCES.txt'
+[2.190s] writing manifest file '../../build/testing/testing.egg-info/SOURCES.txt'
+[2.190s] running build
+[2.190s] running build_py
+[2.190s] running install
+[2.191s] running install_lib
+[2.192s] running install_data
+[2.193s] running install_egg_info
+[2.195s] removing '/home/leroy7/ros_ws/install/testing/lib/python3.10/site-packages/testing-0.0.0-py3.10.egg-info' (and everything under it)
+[2.195s] Copying ../../build/testing/testing.egg-info to /home/leroy7/ros_ws/install/testing/lib/python3.10/site-packages/testing-0.0.0-py3.10.egg-info
+[2.197s] running install_scripts
+[2.225s] writing list of installed files to '/home/leroy7/ros_ws/build/testing/install.log'
+[2.283s] Invoked command in '/home/leroy7/ros_ws/src/testing' returned '0': PYTHONPATH=/home/leroy7/ros_ws/build/testing/prefix_override:/home/leroy7/ros_ws/install/testing/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/testing build --build-base /home/leroy7/ros_ws/build/testing/build install --record /home/leroy7/ros_ws/build/testing/install.log --single-version-externally-managed

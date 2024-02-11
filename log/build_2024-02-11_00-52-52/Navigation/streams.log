@@ -1,0 +1,21 @@
+[2.265s] Invoking command in '/home/leroy7/ros_ws/src/Navigation': PYTHONPATH=/home/leroy7/ros_ws/build/Navigation/prefix_override:/home/leroy7/ros_ws/install/Navigation/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/Navigation build --build-base /home/leroy7/ros_ws/build/Navigation/build install --record /home/leroy7/ros_ws/build/Navigation/install.log --single-version-externally-managed
+[2.627s] running egg_info
+[2.628s] writing ../../build/Navigation/Navigation.egg-info/PKG-INFO
+[2.628s] writing dependency_links to ../../build/Navigation/Navigation.egg-info/dependency_links.txt
+[2.628s] writing entry points to ../../build/Navigation/Navigation.egg-info/entry_points.txt
+[2.629s] writing requirements to ../../build/Navigation/Navigation.egg-info/requires.txt
+[2.629s] writing top-level names to ../../build/Navigation/Navigation.egg-info/top_level.txt
+[2.632s] reading manifest file '../../build/Navigation/Navigation.egg-info/SOURCES.txt'
+[2.633s] writing manifest file '../../build/Navigation/Navigation.egg-info/SOURCES.txt'
+[2.633s] running build
+[2.633s] running build_py
+[2.634s] running install
+[2.634s] running install_lib
+[2.635s] running install_data
+[2.636s] running install_egg_info
+[2.637s] removing '/home/leroy7/ros_ws/install/Navigation/lib/python3.10/site-packages/Navigation-0.0.0-py3.10.egg-info' (and everything under it)
+[2.638s] Copying ../../build/Navigation/Navigation.egg-info to /home/leroy7/ros_ws/install/Navigation/lib/python3.10/site-packages/Navigation-0.0.0-py3.10.egg-info
+[2.640s] running install_scripts
+[2.668s] Installing GPS script to /home/leroy7/ros_ws/install/Navigation/lib/Navigation
+[2.669s] writing list of installed files to '/home/leroy7/ros_ws/build/Navigation/install.log'
+[2.726s] Invoked command in '/home/leroy7/ros_ws/src/Navigation' returned '0': PYTHONPATH=/home/leroy7/ros_ws/build/Navigation/prefix_override:/home/leroy7/ros_ws/install/Navigation/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/Navigation build --build-base /home/leroy7/ros_ws/build/Navigation/build install --record /home/leroy7/ros_ws/build/Navigation/install.log --single-version-externally-managed

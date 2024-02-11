@@ -1,0 +1,18 @@
+running egg_info
+writing ../../build/GPS/GPS.egg-info/PKG-INFO
+writing dependency_links to ../../build/GPS/GPS.egg-info/dependency_links.txt
+writing entry points to ../../build/GPS/GPS.egg-info/entry_points.txt
+writing requirements to ../../build/GPS/GPS.egg-info/requires.txt
+writing top-level names to ../../build/GPS/GPS.egg-info/top_level.txt
+reading manifest file '../../build/GPS/GPS.egg-info/SOURCES.txt'
+writing manifest file '../../build/GPS/GPS.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+running install_data
+running install_egg_info
+removing '/home/leroy7/ros_ws/install/GPS/lib/python3.10/site-packages/GPS-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/GPS/GPS.egg-info to /home/leroy7/ros_ws/install/GPS/lib/python3.10/site-packages/GPS-0.0.0-py3.10.egg-info
+running install_scripts
+writing list of installed files to '/home/leroy7/ros_ws/build/GPS/install.log'
