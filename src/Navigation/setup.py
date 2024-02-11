@@ -1,3 +1,6 @@
+import os
+
+from glob import glob
 from setuptools import find_packages, setup
 
 package_name = 'Navigation'
@@ -10,6 +13,7 @@ setup(
         ('share/ament_index/resource_index/packages',
             ['resource/' + package_name]),
         ('share/' + package_name, ['package.xml']),
+        ('share/' + package_name + '/launch', glob('launch/*.launch.py')),
     ],
     install_requires=['setuptools'],
     zip_safe=True,
@@ -20,7 +24,7 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-             ' GPS = Navigation.gps_distance.gps_distance_node:main '
+             "GPS = Navigation.gps_distance_node:main"
         ],
     },
 )
